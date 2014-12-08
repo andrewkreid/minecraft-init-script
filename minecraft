@@ -107,7 +107,7 @@ COMMENT
 ## Apply the settings file
 
 # define the location of the settings file from the name of this script
-SETTINGSFILE="/etc/default/$(basename $0)"
+SETTINGSFILE="/etc/default/$(basename $(readlink -f $0))"
 
 # check the file exists, and fail if not
 if [ ! -f "$SETTINGSFILE" ]

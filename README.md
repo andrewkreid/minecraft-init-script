@@ -180,7 +180,7 @@ It is possible to run multiple instances, for example a Creative server and a Su
 
     ~~~
     /etc/default/minecraft-creative
-    /etc/default/minecraft-creative
+    /etc/default/minecraft-survival
     ~~~
 
 *   Set an alias for each server in `~/.bashrc`
